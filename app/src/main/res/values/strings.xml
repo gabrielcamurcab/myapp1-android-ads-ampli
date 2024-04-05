@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">myapp</string>
+    <string name="qual_o_seu_curso">Qual o seu curso?</string>
+    <string name="digite_aqui">Digite aqui</string>
+    <string name="curso_digitado_e">O curso digitado é </string>
+    <string name="btn_confirmar_curso">Confirmar curso</string>
+</resources>
