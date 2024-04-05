@@ -8,39 +8,84 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_margin="8dp">
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:contentDescription="@string/imagem"
-            android:src="@drawable/image"/>
+            android:layout_height="200dp"
+            android:contentDescription="@string/imagem_br"
+            android:src="@drawable/brasil"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/qual_o_seu_curso" />
+            android:text="@string/estado" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editTextEstado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/digite_aqui"
-            android:inputType="textCapWords"
-            android:autofillHints=""/>
+            android:inputType="textCapCharacters"
+            android:autofillHints=""
+            android:maxLength="2"/>
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/curso_digitado_e"
+            android:text="@string/valor_mercadoria"
             />
+
+        <EditText
+            android:id="@+id/editTextValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite_aqui"
+            android:inputType="numberDecimal"
+            android:autofillHints="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e5efff"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/porcentagem_icms"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textViewPorcentagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/porcentagem_simbolo"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor_total_mercadoria"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textViewTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_reais"
+                android:textAlignment="center" />
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_confirmar_curso"/>
+            android:text="@string/btn_calcular"/>
 
     </LinearLayout>
 </ScrollView>
