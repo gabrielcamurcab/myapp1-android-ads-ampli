@@ -22,14 +22,12 @@
             android:layout_height="wrap_content"
             android:text="@string/estado" />
 
-        <EditText
+        <Spinner
             android:id="@+id/editTextEstado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/digite_aqui"
-            android:inputType="textCapCharacters"
-            android:autofillHints=""
-            android:maxLength="2"/>
+            android:spinnerMode="dialog"
+            android:entries="@array/ufs_array" />
 
         <TextView
             android:id="@+id/textView"

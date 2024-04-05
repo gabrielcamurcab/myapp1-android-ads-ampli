@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">myapp</string>
+    <string name="app_name">Calculadora ICMS</string>
     <string name="estado">Digite o Estado(UF):</string>
     <string name="digite_aqui">Digite aqui</string>
     <string name="valor_mercadoria">Digite o valor da mercadoria:</string>
@@ -10,6 +10,6 @@
     <string name="btn_calcular">Calcular</string>
     <string name="imagem">Imagem</string>
     <string name="imagem_br">Imagem Brasil</string>
-    <string name="porcentagem_text">Porcentagem: %.2f%%</string>
+    <string name="porcentagem_text">%.2f%%</string>
     <string name="total_text">R$ %.2f%</string>
 </resources>
